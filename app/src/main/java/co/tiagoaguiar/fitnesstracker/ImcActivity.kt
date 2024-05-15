@@ -70,7 +70,6 @@ class ImcActivity : AppCompatActivity() {
 
         }
     }
-
     @StringRes
     private fun imcResponse(imc: Double): Int{
        return when{
