@@ -2,6 +2,7 @@ package co.tiagoaguiar.fitnesstracker
 
 import android.content.Context
 import android.content.DialogInterface
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.inputmethod.InputMethodManager
@@ -54,7 +55,9 @@ class ImcActivity : AppCompatActivity() {
                         dao.insert(Calc(type = "imc", res = result))
 
                         runOnUiThread {
-                            Toast.makeText(this@ImcActivity, R.string.saved, Toast.LENGTH_LONG).show()
+                            val intent = Intent(this@ImcActivity, ListCalcActivity::class.java)
+                            intent.putExtra("type", "imc")
+                            startActivity(intent)
                         }
 
 
