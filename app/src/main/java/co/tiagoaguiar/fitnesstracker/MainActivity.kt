@@ -50,7 +50,8 @@ class MainActivity : AppCompatActivity(), OnItemClickListener {
                     startActivity(intent)
                 }
                 2 -> {
-                    //
+                    val intent = Intent(this@MainActivity, TmbActivity::class.java)
+                    startActivity(intent)
                 }
             }
         }
