@@ -21,6 +21,7 @@
     <string name="imc_extreme_weight">Extremamente obeso</string>
 
     <string name="imc_response">Seu IMC é: %1$.2f</string>
+    <string name="tmb_response">Seu TMB é: %1$.2f</string>
     <string name="list_response">resultado: %1$.2f, data: %2$s</string>
     <string name="save">Salvar</string>
     <string name="saved">Registro salvo om Sucesso!</string>

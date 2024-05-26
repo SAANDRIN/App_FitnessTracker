@@ -30,6 +30,7 @@ class ImcActivity : AppCompatActivity() {
 
         // Implementando a captura de evento de touch no botão
         val btnSend: Button = findViewById(R.id.btn_imc_send)
+
         btnSend.setOnClickListener {
             if(!validate()){
                 Toast.makeText(this, R.string.fields_messages, Toast.LENGTH_SHORT).show()
@@ -44,7 +45,7 @@ class ImcActivity : AppCompatActivity() {
             val imcResponseId = imcResponse(result)
 
             // Criando o PopUp
-            val dialog = AlertDialog.Builder(this)
+            AlertDialog.Builder(this)
                 .setTitle(getString(R.string.imc_response, result))
                 .setMessage(imcResponseId)
                 .setPositiveButton(android.R.string.ok) { dialog, which ->
@@ -88,7 +89,7 @@ class ImcActivity : AppCompatActivity() {
     }
 
     private fun openListActivity() {
-        val intent = Intent(this@ImcActivity, ListCalcActivity::class.java)
+        val intent = Intent(this, ListCalcActivity::class.java)
         intent.putExtra("type", "imc")
         startActivity(intent)
     }
