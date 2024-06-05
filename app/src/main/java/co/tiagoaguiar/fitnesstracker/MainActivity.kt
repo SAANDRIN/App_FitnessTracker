@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity(), OnItemClickListener {
         mainItems.add(
             MainItem(
                 id = 1,
-                drawableId = R.drawable.ic_baseline_wb_sunny_24,
+                drawableId = R.drawable.baseline_add_circle_outline_24,
                 textStringId = R.string.label_imc,
                 color = Color.GREEN
             )
@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity(), OnItemClickListener {
         mainItems.add(
             MainItem(
                 id = 2,
-                drawableId = R.drawable.ic_baseline_visibility_24,
+                drawableId = R.drawable.baseline_add_circle_outline_24,
                 textStringId = R.string.label_tmb,
                 color = Color.YELLOW
             )
