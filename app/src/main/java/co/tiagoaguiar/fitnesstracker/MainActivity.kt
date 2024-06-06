@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity(), OnItemClickListener {
                 id = 1,
                 drawableId = R.drawable.baseline_add_circle_outline_24,
                 textStringId = R.string.label_imc,
-                color = Color.GREEN
+                color = Color.WHITE
             )
         )
         mainItems.add(
@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity(), OnItemClickListener {
                 id = 2,
                 drawableId = R.drawable.baseline_add_circle_outline_24,
                 textStringId = R.string.label_tmb,
-                color = Color.YELLOW
+                color = Color.WHITE
             )
         )
 

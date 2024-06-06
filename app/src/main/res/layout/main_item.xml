@@ -29,6 +29,8 @@
             android:id="@+id/item_txt_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
             android:text="@string/label_imc" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
