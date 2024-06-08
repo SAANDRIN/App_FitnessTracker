@@ -13,4 +13,6 @@ interface CalcDao {
     @Query("SELECT * FROM Calc WHERE type = :type")
     fun getRegisterByType(type: String) : List<Calc>
 
+
+
 }

@@ -12,7 +12,7 @@
         android:background="@drawable/rounded_button"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="24dp"
+        android:padding="40dp"
         android:layout_margin="8dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
